@@ -21,10 +21,6 @@ const t1 = new todomodel({ task: "gaming" })
 
 // var lists = []
 
-
-
-
-
 // var lists='random name'
 app.get("/", function (req, res) {
     todomodel.find().then((result)=>{
